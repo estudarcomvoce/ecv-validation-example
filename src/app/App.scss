@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+html, body {
+  cursor: auto;
+  background-color: #00bd52;
+}
+
+html, body, #react-root, .container {
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
